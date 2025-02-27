@@ -1,8 +1,14 @@
+body {
+    background-color: #333;
+    margin-top: 50px;
+}
+
 .calculator {
     width: 300px;
-    background-color: #2323;
+    background-color: #fff9;
     margin: auto;
     padding: 10px 25px;
+    border-radius: 10px;
 }
 
 .elemet-button {
@@ -24,4 +30,15 @@
     font-size: 20px;
     margin-bottom: 10px;
     text-align: right;
+}
+
+.header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #ddd;
+    box-sizing: border-box;
+    text-shadow: 0 6px 5px #fff9;
 }
