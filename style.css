@@ -1,0 +1,27 @@
+.calculator {
+    width: 300px;
+    background-color: #2323;
+    margin: auto;
+    padding: 10px 25px;
+}
+
+.elemet-button {
+    width: 50px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0 #333;
+}
+
+#pantalla {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
