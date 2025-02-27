@@ -6,3 +6,8 @@ function agregar(valor) {
 function borrar() {
     document.getElementById('pantalla').value = ""
 }
+
+function calcular() {
+    const valorPan = document.getElementById('pantalla').value
+    const resultado = eval(valorPan)
+}
