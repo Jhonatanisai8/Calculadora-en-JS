@@ -10,4 +10,6 @@ function borrar() {
 function calcular() {
     const valorPan = document.getElementById('pantalla').value
     const resultado = eval(valorPan)
+    borrar()
+    document.getElementById('pantalla').value += resultado
 }
